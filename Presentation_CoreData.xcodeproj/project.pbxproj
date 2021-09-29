@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D3A91DC2704C2B600D090C0 /* Presentation_CoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Presentation_CoreData 2.xcdatamodel"; sourceTree = "<group>"; };
 		5DAC54512703A55B00AC2DE5 /* Presentation_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presentation_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAC54542703A55C00AC2DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DAC54562703A55C00AC2DE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -348,9 +349,10 @@
 		5DAC545D2703A55C00AC2DE5 /* Presentation_CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5D3A91DC2704C2B600D090C0 /* Presentation_CoreData 2.xcdatamodel */,
 				5DAC545E2703A55C00AC2DE5 /* Presentation_CoreData.xcdatamodel */,
 			);
-			currentVersion = 5DAC545E2703A55C00AC2DE5 /* Presentation_CoreData.xcdatamodel */;
+			currentVersion = 5D3A91DC2704C2B600D090C0 /* Presentation_CoreData 2.xcdatamodel */;
 			path = Presentation_CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

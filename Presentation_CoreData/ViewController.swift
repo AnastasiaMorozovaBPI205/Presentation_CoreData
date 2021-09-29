@@ -21,6 +21,19 @@ class ViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
+    lazy var persistentContainer: NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "PersonData")
+            
+        // for migration
+        let description = NSPersistentStoreDescription()
+        description.shouldMigrateStoreAutomatically = true
+        description.shouldInferMappingModelAutomatically = true
+        container.persistentStoreDescriptions =  [description]
+        // for migration
+        
+        return container
+    }()
+    
     override func viewWillAppear(_ animated: Bool) {
       super.viewWillAppear(animated)
      
